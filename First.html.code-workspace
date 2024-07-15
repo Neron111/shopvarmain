@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../Rupp.html"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web designer",
+		"editor.tabCompletion": "off",
+		"vscode-pets.petColor": "yellow",
+		"vscode-pets.petType": "chicken",
+		"vscode-pets.theme": "forest",
+		"vscode-pets.throwBallWithMouse": false
+	}
+}

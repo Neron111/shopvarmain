@@ -1,0 +1,437 @@
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+header{
+    background-color: rgb(172, 233, 233);
+    background-image: linear-gradient(to right,rgb(31, 31, 165),rgb(236, 24, 24));
+    padding: 20px;
+    border-radius: 50px;
+}
+.logo{
+    display: inline-block;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo h1{
+    color: rgb(34, 226, 82);
+    cursor: pointer;
+}
+.logo h1:hover {
+    background-color:black;
+    color: yellow;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 300px;
+    box-shadow: 0 0 35px red;
+    transition: 1s;
+}
+nav{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+nav ul>li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px;
+    padding: 15px;
+    border-radius: 50px;
+
+}
+nav ul>li:hover{
+    background-color: green;
+    transition: 0.5s;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: greenyellow;
+    color: black;
+    text-decoration: none;
+    transition: o.5s;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+.search{
+    display: inline-block;
+    width: 22%;
+}
+ #search-box {
+    border: 0;
+    border-radius: 25px;
+    padding: 10px;
+ }
+ #search-box:hover {
+    background-color: blue;
+    border: 0;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0 0 30px rgb(25, 240, 75);
+ }
+ #search-btn{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: gold;
+    color: red;
+    cursor: pointer;
+ }
+ #search-btn:hover{
+    background-color: rgb(76, 0, 255);
+    color: rgb(246, 27, 202);
+    box-shadow: 0 0 30px black;
+    padding: 20px;
+    transition: 2s;
+ }
+
+
+
+
+ 
+.container .box-item{
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 500px;
+    float: left;
+    position: relative;
+
+}
+.container .box-item .image{
+    width: 95%;
+    height: 59%;
+    float: left;
+    background-color: rgb(13, 13, 22);
+    border-radius: 50px;
+    border: 3px solid;
+    cursor: pointer;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.image img:hover{
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    box-shadow: 0 0 50px rgb(241, 245, 13);
+    padding: 10px;
+    border-radius: 50px;
+    justify-content: center;
+}
+.box-item .dicoun{
+    background-color: cyan;
+    width: 50px;
+    height: 5px;
+    font-size: 30px;
+    position: absolute;
+    display: flex;;
+    border-radius: 50%;
+    border: 5px greenyellow;
+    top: 30px;
+    right: 20px;
+    color: red;
+    justify-content: center;
+    align-items: center
+
+}
+.container .box-item .decrip{
+    width: 100%;
+    height: 20%;
+    float: left;
+    background-color: palegreen;
+    border-radius: 30px;
+    margin-top: 5px;
+    
+}
+.decrip h1{
+    color: red;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    
+}
+.decrip p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(213, 244, 13);
+    border-radius: 30px;
+    background-color: rgb(229, 28, 199);
+    cursor: pointer;
+}
+.decrip p:hover{
+    background-color: yellow;
+    color: red;
+    font-size: 35px;
+    box-shadow: 0 0 50px rgb(15, 229, 211);
+}
+
+
+
+
+
+
+
+nav{
+    padding: 5p;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    border: 1px solid green;
+    border-radius: 7px;
+    box-shadow: 6px 6px 5px 0px yellow;
+}
+.logo a{
+    margin-left: 7px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(14, 240, 36);
+}
+span{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 0px 0px;
+    padding: 8px;
+    border-radius: 0px 23px;
+    text-align: center;
+    border: 2px solid white;
+}
+nav ul li :hover{
+    background-color:yellow;
+}
+nav ul li{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 1s ;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li a:hover{
+    color: green;
+}
+.login{
+    padding: 9px 25px;
+    margin-right: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0px 25px;
+    background-color: green;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.login:hover{
+    background-color: red;
+    border: solid 1s;
+}
+.checkbtn{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    line-height: 10px;
+    margin-right: 2%;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media (max-width:954){
+    nav ul li a{
+        font-size: 10px;
+    }
+}
+@media (max-width:858){
+    .checkbtn{
+        display: block;
+        margin-left: 35px;
+    }
+    ul{
+        position: fixed;
+        width: 955%;height: 80vh;
+        background-color: brown;
+        border-radius: 0px 25px ;
+        margin-left: 9px;
+        top: 100px;
+        left: -100%;
+        transition: all .3s;
+        border: 2px solid black;
+        box-shadow: 6px 6px 5px  0px white;
+    }
+    nav ul li{
+        display: none;
+        margin: 16px 70px;
+        line-height: 30px;
+        border-radius: 0px 23px;
+        text-align: center;
+        border: 2px solid black;
+        box-shadow: 6px 6px 5px  0px white;
+
+    }
+    #check:checked ul{
+        left: 0;
+    }
+    .login{
+        float: right;
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 5px;
+        padding: 8px 17px;
+    }
+}
+.content{
+    font-size: 50px;
+    color: greenyellow;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.more{
+    font-size: 70px;
+    color: blue;
+    margin-left: 50%;
+    cursor: pointer;
+
+}
+.logo a{
+    margin-left: 7px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(14, 240, 36);
+}
+span{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 0px 0px;
+    padding: 8px;
+    border-radius: 0px 23px;
+    text-align: center;
+    border: 2px solid white;
+}
+nav ul li :hover{
+    background-color:yellow;
+}
+nav ul li{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 1s ;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li a:hover{
+    color: green;
+}
+.login{
+    padding: 9px 25px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0px 25px;
+    background-color: green;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.login:hover{
+    background-color: red;
+    border: solid 1s;
+    box-shadow: 0 0 50px rgb(13, 26, 214);
+    padding: 43px;
+}
+.checkbtn{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    line-height: 10px;
+    margin-right: 2%;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media (max-width:954){
+    nav ul li a{
+        font-size: 10px;
+    }
+}
+@media (max-width:858){
+    .checkbtn{
+        display: block;
+        margin-left: 35px;
+    }
+    ul{
+        position: fixed;
+        width: 955%;height: 80vh;
+        background-color: brown;
+        border-radius: 0px 25px ;
+        margin-left: 9px;
+        top: 100px;
+        left: -100%;
+        transition: all .3s;
+        border: 2px solid black;
+        box-shadow: 6px 6px 5px  0px white;
+    }
+    nav ul li{
+        display: none;
+        margin: 16px 70px;
+        line-height: 30px;
+        border-radius: 0px 23px;
+        text-align: center;
+        border: 2px solid black;
+        box-shadow: 6px 6px 5px  0px white;
+
+    }
+    #check:checked ul{
+        left: 0;
+    }
+    .login{
+        float: right;
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 5px;
+        padding: 8px 17px;
+    }
+}
+.content{
+    font-size: 50px;
+    color: greenyellow;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.more{
+    font-size: 70px;
+    color: blue;
+    margin-left: 50%;
+    cursor: pointer;
+
+}
